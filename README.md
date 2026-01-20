@@ -1,4 +1,4 @@
-# RP_S26
+# S26_RobotProgramming_Crystal
 Robot Programming Spring 2026
 
 ## Description
