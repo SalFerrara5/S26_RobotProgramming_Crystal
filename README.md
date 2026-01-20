@@ -7,4 +7,4 @@ This repository contains coursework, labs, and projects for the Robot Programmin
 ## Team Members
 - Sal Ferrara
 - Talon Carsto
-- 
+- Jacob Lizak
