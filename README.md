@@ -10,3 +10,4 @@ This repository contains coursework, labs, and projects for the Robot Programmin
 - Jacob Lizak
 - Andrew Ebinger
 - Anderson Corriero
+- James Bryceland
