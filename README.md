@@ -8,3 +8,4 @@ This repository contains coursework, labs, and projects for the Robot Programmin
 - Sal Ferrara
 - Talon Carsto
 - Jacob Lizak
+- Andrew Ebinger
