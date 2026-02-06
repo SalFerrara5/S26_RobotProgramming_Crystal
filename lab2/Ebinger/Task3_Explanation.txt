@@ -1,0 +1,2 @@
+My method for drawing the square was fairly simple, mainly using topics to drive the motion of the turtle. First, I used the “set_pen” service call to change the RGB values for each color to zero and the line width to 3. Next, I used the absolute direction control granted by the “teleop_key” command to turn the turtle 90 degrees to the right, and the “cmd_vel” command to set the forward velocity of the turtle to 2 for a preset amount of time. I repeated this set of commands 4 times to create the square shape.
+
