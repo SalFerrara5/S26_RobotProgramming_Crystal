@@ -1,0 +1,3 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+error: [Errno 17] File exists: '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/build/webcam/resource/webcam' -> '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/install/webcam/share/ament_index/resource_index/packages/webcam'

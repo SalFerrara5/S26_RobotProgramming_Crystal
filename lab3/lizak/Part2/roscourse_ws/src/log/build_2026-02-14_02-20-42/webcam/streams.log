@@ -1,0 +1,22 @@
+[1.028s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/build/webcam': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/build/webcam/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/build/webcam/build --no-deps symlink_data
+[1.318s] running develop
+[1.319s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.319s]   warnings.warn(
+[1.499s] running egg_info
+[1.499s] writing webcam.egg-info/PKG-INFO
+[1.511s] writing dependency_links to webcam.egg-info/dependency_links.txt
+[1.511s] writing entry points to webcam.egg-info/entry_points.txt
+[1.512s] writing requirements to webcam.egg-info/requires.txt
+[1.512s] writing top-level names to webcam.egg-info/top_level.txt
+[1.514s] reading manifest file 'webcam.egg-info/SOURCES.txt'
+[1.515s] writing manifest file 'webcam.egg-info/SOURCES.txt'
+[1.517s] running build_ext
+[1.517s] Creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/install/webcam/lib/python3.10/site-packages/webcam.egg-link (link to .)
+[1.518s] Installing webcam_pub script to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/install/webcam/lib/webcam
+[1.518s] Installing webcam_sub script to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/install/webcam/lib/webcam
+[1.519s] 
+[1.519s] Installed /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/build/webcam
+[1.519s] running symlink_data
+[1.519s] symbolically linking /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/build/webcam/resource/webcam -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/install/webcam/share/ament_index/resource_index/packages
+[1.519s] error: [Errno 17] File exists: '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/build/webcam/resource/webcam' -> '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/install/webcam/share/ament_index/resource_index/packages/webcam'
+[1.545s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/build/webcam' returned '1': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/build/webcam/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/lizak/Part2/roscourse_ws/src/build/webcam/build --no-deps symlink_data
