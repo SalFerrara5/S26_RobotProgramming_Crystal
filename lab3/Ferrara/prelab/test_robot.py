@@ -1,16 +1,46 @@
 from robot import Robot
 
-robot1 = Robot(101, True, "A3")
-robot2 = Robot(102, False, "B7")
 
-print(robot1)
-print(robot2)
+def main():
+    robot_id = input("Enter Robot ID: ")
+    start_location = input("Enter starting location (ex: A3): ")
 
-robot1.moveBot("C5")
-print("\nAfter moving robot1:")
-print(robot1)
+    robot = Robot(robot_id, False, start_location)
 
-robot2.changeStatus()
-print("\nAfter changing robot2 status:")
-print(robot2)
+    while True:
+        print("\nCurrent Robot State:")
+        print(robot)
+
+        print("\nChoose an action:")
+        print("1 - Turn ON")
+        print("2 - Turn OFF")
+        print("3 - Toggle Status")
+        print("4 - Move Robot")
+        print("5 - Quit")
+
+        choice = input("Enter choice: ")
+
+        if choice == "1":
+            robot.turnOn()
+
+        elif choice == "2":
+            robot.turnOff()
+
+        elif choice == "3":
+            robot.toggleStatus()
+
+        elif choice == "4":
+            new_loc = input("Enter new location: ")
+            robot.moveBot(new_loc)
+
+        elif choice == "5":
+            print("Exiting program.")
+            break
+
+        else:
+            print("Invalid selection. Try again.")
+
+
+if __name__ == "__main__":
+    main()
 

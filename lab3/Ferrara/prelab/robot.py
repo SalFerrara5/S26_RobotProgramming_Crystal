@@ -1,21 +1,25 @@
 class Robot:
-    """
-    Robot class containing ID number, status (online/offline),
-    and location (cell position such as A3).
-    """
-
-    def __init__(self, id_number, status, location):
+    def __init__(self, id_number, status=False, location="A1"):
         self.id_number = id_number
-        self.status = status
+        self._status = status
         self.location = location
 
     def __str__(self):
-        state = "Online" if self.status else "Offline"
+        state = "Online" if self._status else "Offline"
         return f"Robot {self.id_number} is {state} at location {self.location}"
 
-    def moveBot(self, new_location):
-        self.location = new_location
+    def turnOn(self):
+        self._status = True
 
-    def changeStatus(self):
-        self.status = not self.status
+    def turnOff(self):
+        self._status = False
+
+    def toggleStatus(self):
+        self._status = not self._status
+
+    def moveBot(self, new_location):
+        if not self._status:
+            print("Robot is OFF. Cannot move.")
+            return
+        self.location = new_location
 
