@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'webcam'
+package_name = 'python_turtle'
 
 setup(
     name=package_name,
@@ -14,16 +14,15 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='yahboom',
-    maintainer_email='salferrara55555@gmail.com',
-    description='TODO: Package description',
+    maintainer_email='lizakj@rpi.edu',
+    description='Python Turtle ROS2 Package',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'webcam_pub = webcam.cam_pub:main',
-        'webcam_sub = webcam.cam_sub:main',
+            'turtlebot_server = python_turtle.turtlebot_server:main',
+            'turtlebot_client = python_turtle.turtlebot_client:main',
+            'service_client = python_turtle.service_client:main',
         ],
     },
 )
-
-
