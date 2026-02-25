@@ -1,0 +1,35 @@
+[0.694s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/webcam': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/build/webcam/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/webcam build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/build/webcam/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/build/webcam/install.log --single-version-externally-managed install_data
+[0.947s] running egg_info
+[0.947s] creating ../build/webcam/webcam.egg-info
+[0.948s] writing ../build/webcam/webcam.egg-info/PKG-INFO
+[0.948s] writing dependency_links to ../build/webcam/webcam.egg-info/dependency_links.txt
+[0.948s] writing entry points to ../build/webcam/webcam.egg-info/entry_points.txt
+[0.948s] writing requirements to ../build/webcam/webcam.egg-info/requires.txt
+[0.948s] writing top-level names to ../build/webcam/webcam.egg-info/top_level.txt
+[0.948s] writing manifest file '../build/webcam/webcam.egg-info/SOURCES.txt'
+[0.950s] reading manifest file '../build/webcam/webcam.egg-info/SOURCES.txt'
+[0.950s] writing manifest file '../build/webcam/webcam.egg-info/SOURCES.txt'
+[0.951s] running build
+[0.951s] running build_py
+[0.951s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/build/webcam/build
+[0.951s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/build/webcam/build/lib
+[0.951s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/build/webcam/build/lib/webcam
+[0.951s] copying webcam/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/build/webcam/build/lib/webcam
+[0.951s] running install
+[0.952s] running install_lib
+[0.952s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/lib/python3.10/site-packages/webcam
+[0.952s] copying /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/build/webcam/build/lib/webcam/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/lib/python3.10/site-packages/webcam
+[0.953s] byte-compiling /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/lib/python3.10/site-packages/webcam/__init__.py to __init__.cpython-310.pyc
+[0.953s] running install_data
+[0.954s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/share/ament_index
+[0.954s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/share/ament_index/resource_index
+[0.954s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/share/ament_index/resource_index/packages
+[0.954s] copying resource/webcam -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/share/ament_index/resource_index/packages
+[0.954s] copying package.xml -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/share/webcam
+[0.954s] running install_egg_info
+[0.957s] Copying ../build/webcam/webcam.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info
+[0.958s] running install_scripts
+[0.984s] Installing webcam_pub script to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/lib/webcam
+[0.984s] Installing webcam_sub script to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/lib/webcam
+[0.984s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/build/webcam/install.log'
+[1.015s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/webcam' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/build/webcam/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/webcam build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/build/webcam/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ferrara/lab/roscourse_ws/src/build/webcam/install.log --single-version-externally-managed install_data
