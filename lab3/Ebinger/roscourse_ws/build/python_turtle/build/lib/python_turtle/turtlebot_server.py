@@ -30,12 +30,21 @@ class TurtlebotServer(Node):
         #### Driving Simulation Timer ####
         self.sim_interval = 0.02
         self.create_timer(self.sim_interval, self.driving_timer_cb)
+        
+        self.turtle_color_srv = self.create_service(SetColor, 'set_Color', self.set_color_callback)
+#You need to fill in the service type based on the srv file created
 
 
     def twist_callback(self, msg):
 
         self.vel_x = msg.linear.x
         self.ang_vel = msg.angular.z
+        
+    def set_color_callback(self,request,response):
+        self.turtle.color = request.color #fill in this blank
+        self.get_logger().info('Turtle color set: %s' %(self.turtle.color)) #fill in the blank
+        response.ret = 1
+        return response
 
     def driving_timer_cb(self):
 
@@ -63,6 +72,7 @@ class TurtlebotServer(Node):
 
         # publish new turtle state
         self.turtle_pub.publish(self.turtle)
+       
 
 
 def quat_from_rpy(roll, pitch, yaw):
@@ -114,6 +124,8 @@ def main(args=None):
     # Destroy the node explicitly
     ser_obj.destroy_node()
     rclpy.shutdown()
+    
+
 
 if __name__=='__main__':
     main()

@@ -31,7 +31,7 @@ class TurtlebotServer(Node):
         self.sim_interval = 0.02
         self.create_timer(self.sim_interval, self.driving_timer_cb)
         
-        self.turtle_color_srv = self.create_service(turtle_interfaces/srv/SetColor, 'set-Color', self.set_color_callback)
+        self.turtle_color_srv = self.create_service(SetColor, 'set_Color', self.set_color_callback)
 #You need to fill in the service type based on the srv file created
 
 
@@ -43,8 +43,8 @@ class TurtlebotServer(Node):
     def set_color_callback(self,request,response):
         self.turtle.color = request.color #fill in this blank
         self.get_logger().info('Turtle color set: %s' %(self.turtle.color)) #fill in the blank
-    response.ret = 1
-    return response
+        response.ret = 1
+        return response
 
     def driving_timer_cb(self):
 
