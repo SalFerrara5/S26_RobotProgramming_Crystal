@@ -1,0 +1,29 @@
+[1.386s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/build/webcam': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/build/webcam/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/build/webcam/build --no-deps symlink_data
+[1.822s] running develop
+[1.826s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.826s]   warnings.warn(
+[2.104s] running egg_info
+[2.105s] creating webcam.egg-info
+[2.105s] writing webcam.egg-info/PKG-INFO
+[2.105s] writing dependency_links to webcam.egg-info/dependency_links.txt
+[2.106s] writing entry points to webcam.egg-info/entry_points.txt
+[2.106s] writing requirements to webcam.egg-info/requires.txt
+[2.106s] writing top-level names to webcam.egg-info/top_level.txt
+[2.106s] writing manifest file 'webcam.egg-info/SOURCES.txt'
+[2.108s] reading manifest file 'webcam.egg-info/SOURCES.txt'
+[2.108s] writing manifest file 'webcam.egg-info/SOURCES.txt'
+[2.111s] running build_ext
+[2.111s] Creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/install/webcam/lib/python3.10/site-packages/webcam.egg-link (link to .)
+[2.112s] Installing webcam_pub script to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/install/webcam/lib/webcam
+[2.112s] Installing webcam_sub script to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/install/webcam/lib/webcam
+[2.113s] 
+[2.113s] Installed /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/build/webcam
+[2.113s] running symlink_data
+[2.113s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/install/webcam/share
+[2.113s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/install/webcam/share/ament_index
+[2.113s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/install/webcam/share/ament_index/resource_index
+[2.113s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/install/webcam/share/ament_index/resource_index/packages
+[2.113s] symbolically linking /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/build/webcam/resource/webcam -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/install/webcam/share/ament_index/resource_index/packages
+[2.113s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/install/webcam/share/webcam
+[2.114s] symbolically linking /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/build/webcam/package.xml -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/install/webcam/share/webcam
+[2.143s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/build/webcam' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/build/webcam/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Carsto/Lab/resource_ws/build/webcam/build --no-deps symlink_data

@@ -1,0 +1,3 @@
+source;share/webcam/hook/pythonpath.ps1
+source;share/webcam/hook/pythonpath.dsv
+source;share/webcam/hook/pythonpath.sh
