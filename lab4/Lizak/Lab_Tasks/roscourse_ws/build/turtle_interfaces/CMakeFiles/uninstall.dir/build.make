@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ebinger/roscourse_ws/src/turtle_interfaces
+CMAKE_SOURCE_DIR = /home/yahboom/roscourse_ws/src/turtle_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ebinger/roscourse_ws/build/turtle_interfaces
+CMAKE_BINARY_DIR = /home/yahboom/roscourse_ws/build/turtle_interfaces
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ebinger/roscourse_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ebinger/roscourse_ws/src/turtle_interfaces /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ebinger/roscourse_ws/src/turtle_interfaces /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ebinger/roscourse_ws/build/turtle_interfaces /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ebinger/roscourse_ws/build/turtle_interfaces /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ebinger/roscourse_ws/build/turtle_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yahboom/roscourse_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yahboom/roscourse_ws/src/turtle_interfaces /home/yahboom/roscourse_ws/src/turtle_interfaces /home/yahboom/roscourse_ws/build/turtle_interfaces /home/yahboom/roscourse_ws/build/turtle_interfaces /home/yahboom/roscourse_ws/build/turtle_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

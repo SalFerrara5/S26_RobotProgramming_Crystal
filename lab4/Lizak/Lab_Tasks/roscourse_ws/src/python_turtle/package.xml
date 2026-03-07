@@ -7,6 +7,9 @@
   <maintainer email="dreweebinger@gmail.com">yahboom</maintainer>
   <license>TODO: License declaration</license>
 
+  <!-- Added dependency for parameter descriptor support -->
+  <exec_depend>rcl_interfaces</exec_depend>
+
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

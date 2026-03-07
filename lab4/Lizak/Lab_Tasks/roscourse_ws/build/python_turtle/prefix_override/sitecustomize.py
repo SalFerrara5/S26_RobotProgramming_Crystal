@@ -1,3 +1,3 @@
 import sys
 sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ebinger/roscourse_ws/install/python_turtle'
+sys.prefix = sys.exec_prefix = '/home/yahboom/roscourse_ws/install/python_turtle'

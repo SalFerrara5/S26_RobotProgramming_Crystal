@@ -1,8 +1,8 @@
-# Install script for directory: /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ebinger/roscourse_ws/build/turtle_interfaces/turtle_interfaces__py
+# Install script for directory: /home/yahboom/roscourse_ws/build/turtle_interfaces/turtle_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab3/Ebinger/roscourse_ws/install/turtle_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/yahboom/roscourse_ws/install/turtle_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
