@@ -1,0 +1,44 @@
+[3.073s] Invoking command in '/home/yahboom/ICA_ws/src/turtle_test': PYTHONPATH=/home/yahboom/ICA_ws/build/turtle_test/prefix_override:/home/yahboom/ICA_ws/install/turtle_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_test build --build-base /home/yahboom/ICA_ws/build/turtle_test/build install --record /home/yahboom/ICA_ws/build/turtle_test/install.log --single-version-externally-managed install_data
+[4.000s] running egg_info
+[4.001s] creating ../../build/turtle_test/turtle_test.egg-info
+[4.002s] writing ../../build/turtle_test/turtle_test.egg-info/PKG-INFO
+[4.003s] writing dependency_links to ../../build/turtle_test/turtle_test.egg-info/dependency_links.txt
+[4.003s] writing entry points to ../../build/turtle_test/turtle_test.egg-info/entry_points.txt
+[4.004s] writing requirements to ../../build/turtle_test/turtle_test.egg-info/requires.txt
+[4.006s] writing top-level names to ../../build/turtle_test/turtle_test.egg-info/top_level.txt
+[4.006s] writing manifest file '../../build/turtle_test/turtle_test.egg-info/SOURCES.txt'
+[4.011s] reading manifest file '../../build/turtle_test/turtle_test.egg-info/SOURCES.txt'
+[4.011s] adding license file 'LICENSE'
+[4.013s] writing manifest file '../../build/turtle_test/turtle_test.egg-info/SOURCES.txt'
+[4.015s] running build
+[4.015s] running build_py
+[4.015s] creating /home/yahboom/ICA_ws/build/turtle_test/build
+[4.015s] creating /home/yahboom/ICA_ws/build/turtle_test/build/lib
+[4.016s] creating /home/yahboom/ICA_ws/build/turtle_test/build/lib/turtle_test
+[4.016s] copying turtle_test/turtle_service.py -> /home/yahboom/ICA_ws/build/turtle_test/build/lib/turtle_test
+[4.016s] copying turtle_test/__init__.py -> /home/yahboom/ICA_ws/build/turtle_test/build/lib/turtle_test
+[4.017s] copying turtle_test/turtle_action_client.py -> /home/yahboom/ICA_ws/build/turtle_test/build/lib/turtle_test
+[4.021s] running install
+[4.021s] running install_lib
+[4.023s] creating /home/yahboom/ICA_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test
+[4.023s] copying /home/yahboom/ICA_ws/build/turtle_test/build/lib/turtle_test/turtle_service.py -> /home/yahboom/ICA_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test
+[4.024s] copying /home/yahboom/ICA_ws/build/turtle_test/build/lib/turtle_test/__init__.py -> /home/yahboom/ICA_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test
+[4.024s] copying /home/yahboom/ICA_ws/build/turtle_test/build/lib/turtle_test/turtle_action_client.py -> /home/yahboom/ICA_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test
+[4.026s] byte-compiling /home/yahboom/ICA_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test/turtle_service.py to turtle_service.cpython-310.pyc
+[4.032s] byte-compiling /home/yahboom/ICA_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test/__init__.py to __init__.cpython-310.pyc
+[4.033s] byte-compiling /home/yahboom/ICA_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test/turtle_action_client.py to turtle_action_client.cpython-310.pyc
+[4.034s] running install_data
+[4.034s] creating /home/yahboom/ICA_ws/install/turtle_test/share
+[4.035s] creating /home/yahboom/ICA_ws/install/turtle_test/share/ament_index
+[4.035s] creating /home/yahboom/ICA_ws/install/turtle_test/share/ament_index/resource_index
+[4.035s] creating /home/yahboom/ICA_ws/install/turtle_test/share/ament_index/resource_index/packages
+[4.036s] copying resource/turtle_test -> /home/yahboom/ICA_ws/install/turtle_test/share/ament_index/resource_index/packages
+[4.036s] creating /home/yahboom/ICA_ws/install/turtle_test/share/turtle_test
+[4.037s] copying package.xml -> /home/yahboom/ICA_ws/install/turtle_test/share/turtle_test
+[4.037s] running install_egg_info
+[4.044s] Copying ../../build/turtle_test/turtle_test.egg-info to /home/yahboom/ICA_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test-0.0.0-py3.10.egg-info
+[4.047s] running install_scripts
+[4.144s] Installing make_square script to /home/yahboom/ICA_ws/install/turtle_test/lib/turtle_test
+[4.144s] Installing turtle script to /home/yahboom/ICA_ws/install/turtle_test/lib/turtle_test
+[4.145s] writing list of installed files to '/home/yahboom/ICA_ws/build/turtle_test/install.log'
+[4.202s] Invoked command in '/home/yahboom/ICA_ws/src/turtle_test' returned '0': PYTHONPATH=/home/yahboom/ICA_ws/build/turtle_test/prefix_override:/home/yahboom/ICA_ws/install/turtle_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_test build --build-base /home/yahboom/ICA_ws/build/turtle_test/build install --record /home/yahboom/ICA_ws/build/turtle_test/install.log --single-version-externally-managed install_data
