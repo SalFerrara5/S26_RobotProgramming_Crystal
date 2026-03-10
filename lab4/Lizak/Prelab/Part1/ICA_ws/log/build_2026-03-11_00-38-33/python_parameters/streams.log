@@ -1,0 +1,21 @@
+[2.094s] Invoking command in '/home/yahboom/ICA_ws/src/python_parameters': PYTHONPATH=/home/yahboom/ICA_ws/build/python_parameters/prefix_override:/home/yahboom/ICA_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yahboom/ICA_ws/build/python_parameters/build install --record /home/yahboom/ICA_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[2.898s] running egg_info
+[2.900s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[2.936s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[2.938s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[2.939s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[2.941s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[2.945s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[2.947s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[2.948s] running build
+[2.948s] running build_py
+[2.949s] running install
+[2.950s] running install_lib
+[2.953s] running install_data
+[2.954s] running install_egg_info
+[2.958s] removing '/home/yahboom/ICA_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info' (and everything under it)
+[2.959s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/yahboom/ICA_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[2.961s] running install_scripts
+[3.019s] Installing minimal_param_node script to /home/yahboom/ICA_ws/install/python_parameters/lib/python_parameters
+[3.021s] writing list of installed files to '/home/yahboom/ICA_ws/build/python_parameters/install.log'
+[3.069s] Invoked command in '/home/yahboom/ICA_ws/src/python_parameters' returned '0': PYTHONPATH=/home/yahboom/ICA_ws/build/python_parameters/prefix_override:/home/yahboom/ICA_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yahboom/ICA_ws/build/python_parameters/build install --record /home/yahboom/ICA_ws/build/python_parameters/install.log --single-version-externally-managed install_data

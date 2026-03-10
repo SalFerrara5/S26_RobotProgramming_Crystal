@@ -1,0 +1,200 @@
+[0.083s] Invoking command in '/home/yahboom/roscourse_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/roscourse_ws/install/webcam:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/roscourse_ws/build/turtle_interfaces -- -j4 -l4
+[0.444s] [  2%] Built target turtle_interfaces__cpp
+[0.522s] [ 12%] Built target turtle_interfaces__rosidl_generator_c
+[0.695s] [ 12%] Built target ament_cmake_python_copy_turtle_interfaces
+[0.701s] [ 23%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.717s] [ 34%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[0.724s] [ 44%] Built target turtle_interfaces__rosidl_typesupport_cpp
+[0.955s] [ 55%] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[0.990s] [ 65%] Built target turtle_interfaces__rosidl_typesupport_c
+[1.004s] [ 76%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[1.163s] [ 76%] Built target turtle_interfaces
+[1.301s] [ 78%] Built target turtle_interfaces__py
+[1.458s] [ 87%] Built target turtle_interfaces__rosidl_generator_py
+[1.699s] [ 91%] Built target turtle_interfaces__rosidl_typesupport_c__pyext
+[1.729s] [ 95%] Built target turtle_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.760s] [100%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.793s] running egg_info
+[1.795s] writing turtle_interfaces.egg-info/PKG-INFO
+[1.796s] writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt
+[1.797s] writing top-level names to turtle_interfaces.egg-info/top_level.txt
+[1.804s] reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[1.805s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[1.907s] [100%] Built target ament_cmake_python_build_turtle_interfaces_egg
+[1.972s] Invoked command in '/home/yahboom/roscourse_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/roscourse_ws/install/webcam:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/roscourse_ws/build/turtle_interfaces -- -j4 -l4
+[3.105s] Invoking command in '/home/yahboom/roscourse_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/roscourse_ws/install/webcam:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/roscourse_ws/build/turtle_interfaces
+[3.172s] -- Install configuration: ""
+[3.173s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_interfaces
+[3.173s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[3.174s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[3.174s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[3.174s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__type_support.h
+[3.174s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__functions.h
+[3.175s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__functions.h
+[3.175s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__functions.c
+[3.176s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__struct.h
+[3.176s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__type_support.h
+[3.177s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__struct.h
+[3.177s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__functions.c
+[3.177s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_pose.h
+[3.178s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_color.h
+[3.179s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[3.181s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[3.182s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__functions.c
+[3.183s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__type_support.h
+[3.183s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__functions.h
+[3.185s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__struct.h
+[3.186s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/turtle_msg.h
+[3.186s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.186s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.sh
+[3.186s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.dsv
+[3.186s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so
+[3.187s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[3.187s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[3.188s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[3.188s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_fastrtps_c.h
+[3.189s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[3.189s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[3.189s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[3.190s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_fastrtps_c.h
+[3.190s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.190s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.191s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[3.191s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[3.191s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_pose.hpp
+[3.191s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[3.192s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__struct.hpp
+[3.193s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__builder.hpp
+[3.193s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__traits.hpp
+[3.194s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__traits.hpp
+[3.194s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__builder.hpp
+[3.194s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__struct.hpp
+[3.195s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_color.hpp
+[3.195s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[3.195s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[3.195s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__traits.hpp
+[3.196s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__struct.hpp
+[3.197s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__builder.hpp
+[3.197s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/turtle_msg.hpp
+[3.197s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[3.198s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[3.198s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[3.198s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_fastrtps_cpp.hpp
+[3.199s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[3.199s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/dds_fastrtps
+[3.200s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[3.200s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[3.201s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[3.202s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/dds_fastrtps
+[3.203s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.203s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.203s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[3.203s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[3.204s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[3.204s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__type_support.c
+[3.204s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[3.204s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__type_support.c
+[3.204s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_introspection_c.h
+[3.204s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[3.205s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[3.205s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_introspection_c.h
+[3.205s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__type_support.c
+[3.205s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.206s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so
+[3.206s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so
+[3.206s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[3.206s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[3.206s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[3.207s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__type_support.cpp
+[3.207s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[3.207s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__type_support.cpp
+[3.207s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_introspection_cpp.hpp
+[3.207s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[3.208s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[3.208s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__type_support.cpp
+[3.208s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_introspection_cpp.hpp
+[3.208s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.208s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so
+[3.208s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.sh
+[3.209s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.dsv
+[3.209s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info
+[3.209s] -- Installing: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.209s] -- Installing: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.210s] -- Installing: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.210s] -- Installing: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.210s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces
+[3.210s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so
+[3.210s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c
+[3.211s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv
+[3.211s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_color.py
+[3.211s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_pose_s.c
+[3.211s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py
+[3.211s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_color_s.c
+[3.212s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_pose.py
+[3.212s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.212s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py
+[3.212s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.212s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.213s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg
+[3.213s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_msg.py
+[3.213s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/__init__.py
+[3.213s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_msg_s.c
+[3.214s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.215s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.353s] Listing '/home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces'...
+[3.353s] Listing '/home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg'...
+[3.353s] Listing '/home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv'...
+[3.365s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.366s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.367s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.368s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so
+[3.369s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetPose.idl
+[3.369s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColor.idl
+[3.370s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/msg/TurtleMsg.idl
+[3.371s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetPose.srv
+[3.371s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetPose_Request.msg
+[3.371s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetPose_Response.msg
+[3.372s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColor.srv
+[3.372s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColor_Request.msg
+[3.372s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColor_Response.msg
+[3.372s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/msg/TurtleMsg.msg
+[3.372s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_interfaces
+[3.372s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_interfaces
+[3.373s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.sh
+[3.373s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.dsv
+[3.374s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.sh
+[3.374s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.dsv
+[3.374s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.bash
+[3.375s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.sh
+[3.375s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.zsh
+[3.375s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.dsv
+[3.375s] -- Installing: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv
+[3.375s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/ament_index/resource_index/packages/turtle_interfaces
+[3.376s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport.cmake
+[3.376s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.376s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.376s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.377s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cppExport.cmake
+[3.378s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.378s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.379s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.379s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.379s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport.cmake
+[3.379s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.380s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.380s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.380s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport.cmake
+[3.380s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.380s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport.cmake
+[3.381s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.381s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.381s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.381s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.381s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.381s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.381s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.382s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.382s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig.cmake
+[3.382s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig-version.cmake
+[3.382s] -- Up-to-date: /home/yahboom/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.xml
+[3.390s] Invoked command in '/home/yahboom/roscourse_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/roscourse_ws/install/webcam:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/roscourse_ws/build/turtle_interfaces

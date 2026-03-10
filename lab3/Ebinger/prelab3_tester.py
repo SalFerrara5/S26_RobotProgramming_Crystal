@@ -1,6 +1,6 @@
-import pre_lab3
+from pre_lab3 import Robot
 
-ROSbot = Robot(23, True, "A3")
+ROSbot = Robot(23, False, "A3")
 new_loc = "C5"
 
 print(f"The robot started at {ROSbot.loc}")
@@ -12,7 +12,7 @@ elif ROSbot.status == False:
 
 ROSbot.moveBot(new_loc)
 print(f"The robot has moved to {new_loc}")
-ROSbot.changeStatus
+ROSbot.changeStatus()
 
 if ROSbot.status == True:
     print("The robot is online")

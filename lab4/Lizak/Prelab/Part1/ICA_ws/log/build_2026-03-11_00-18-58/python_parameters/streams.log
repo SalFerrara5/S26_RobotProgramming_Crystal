@@ -1,0 +1,39 @@
+[3.267s] Invoking command in '/home/yahboom/ICA_ws/src/python_parameters': PYTHONPATH=/home/yahboom/ICA_ws/build/python_parameters/prefix_override:/home/yahboom/ICA_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yahboom/ICA_ws/build/python_parameters/build install --record /home/yahboom/ICA_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[4.193s] running egg_info
+[4.196s] creating ../../build/python_parameters/python_parameters.egg-info
+[4.197s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[4.197s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[4.198s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[4.198s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[4.199s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[4.200s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[4.204s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[4.206s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[4.207s] running build
+[4.207s] running build_py
+[4.208s] creating /home/yahboom/ICA_ws/build/python_parameters/build
+[4.208s] creating /home/yahboom/ICA_ws/build/python_parameters/build/lib
+[4.209s] creating /home/yahboom/ICA_ws/build/python_parameters/build/lib/python_parameters
+[4.209s] copying python_parameters/__init__.py -> /home/yahboom/ICA_ws/build/python_parameters/build/lib/python_parameters
+[4.209s] copying python_parameters/python_parameters_node.py -> /home/yahboom/ICA_ws/build/python_parameters/build/lib/python_parameters
+[4.210s] running install
+[4.212s] running install_lib
+[4.214s] creating /home/yahboom/ICA_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[4.215s] copying /home/yahboom/ICA_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/yahboom/ICA_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[4.215s] copying /home/yahboom/ICA_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/yahboom/ICA_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[4.217s] byte-compiling /home/yahboom/ICA_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters/__init__.py to __init__.cpython-310.pyc
+[4.218s] byte-compiling /home/yahboom/ICA_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-310.pyc
+[4.219s] running install_data
+[4.219s] creating /home/yahboom/ICA_ws/install/python_parameters/share/ament_index
+[4.220s] creating /home/yahboom/ICA_ws/install/python_parameters/share/ament_index/resource_index
+[4.220s] creating /home/yahboom/ICA_ws/install/python_parameters/share/ament_index/resource_index/packages
+[4.220s] copying resource/python_parameters -> /home/yahboom/ICA_ws/install/python_parameters/share/ament_index/resource_index/packages
+[4.221s] copying package.xml -> /home/yahboom/ICA_ws/install/python_parameters/share/python_parameters
+[4.221s] creating /home/yahboom/ICA_ws/install/python_parameters/share/python_parameters/launch
+[4.222s] copying launch/run_multi_launch.py -> /home/yahboom/ICA_ws/install/python_parameters/share/python_parameters/launch
+[4.223s] running install_egg_info
+[4.234s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/yahboom/ICA_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[4.237s] running install_scripts
+[4.342s] Installing minimal_param_node script to /home/yahboom/ICA_ws/install/python_parameters/lib/python_parameters
+[4.342s] writing list of installed files to '/home/yahboom/ICA_ws/build/python_parameters/install.log'
+[4.405s] Invoked command in '/home/yahboom/ICA_ws/src/python_parameters' returned '0': PYTHONPATH=/home/yahboom/ICA_ws/build/python_parameters/prefix_override:/home/yahboom/ICA_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yahboom/ICA_ws/build/python_parameters/build install --record /home/yahboom/ICA_ws/build/python_parameters/install.log --single-version-externally-managed install_data
