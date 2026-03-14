@@ -1,0 +1,1 @@
+/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Ferrara/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/msg/__init__.py
