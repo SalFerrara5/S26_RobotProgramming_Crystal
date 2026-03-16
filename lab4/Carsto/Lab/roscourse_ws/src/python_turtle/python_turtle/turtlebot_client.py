@@ -42,7 +42,7 @@ class TurtleClient(Node):
         self.turtle_display.pensize(penSize)
         
                 #### SetColor service client ####
-        self.color_cli = self.create_client(SetColor, 'setColor')
+        self.color_cli = self.create_client(SetColor, 'set_Color')
 
         while not self.color_cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Color service not available, waiting...')

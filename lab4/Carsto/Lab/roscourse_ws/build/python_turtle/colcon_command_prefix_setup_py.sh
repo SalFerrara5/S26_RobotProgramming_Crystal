@@ -1,2 +1,2 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
-. "/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Lab4/Lab/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.sh"
+. "/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.sh"

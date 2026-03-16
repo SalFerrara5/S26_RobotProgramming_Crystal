@@ -42,7 +42,7 @@ class TurtleClient(Node):
         self.turtle_display.pensize(penSize)
         
                 #### SetColor service client ####
-        self.color_cli = self.create_client(SetColor, 'setColor')
+        self.color_cli = self.create_client(SetColor, 'set_Color')
 
         while not self.color_cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Color service not available, waiting...')
@@ -131,10 +131,10 @@ def main(args=None):
         unit_z = 1 #<put a reasonable ratio, 1 is a good number, around 1 is good enough>
         
         #### publish twist ####
-        cmd_msg = Twist()
-        cmd_msg.linear.x = float(50 * unit_x)
-        cmd_msg.angular.z = float(1 * unit_z)
-        cli_obj.twist_pub.publish(cmd_msg)
+        #cmd_msg = Twist()
+        #cmd_msg.linear.x = float(50 * unit_x)
+        #cmd_msg.angular.z = float(1 * unit_z)
+        #cli_obj.twist_pub.publish(cmd_msg)
 
     # Destory the node explicitly
     cli_obj.destroy_node()

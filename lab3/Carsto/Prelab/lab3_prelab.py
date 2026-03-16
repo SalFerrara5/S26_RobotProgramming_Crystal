@@ -43,29 +43,24 @@ class Robot:
         return f"Robot {self.id}: {status_str} at {self.location}"
 
 
-# Verification script
 if __name__ == "__main__":
     print("=== Robot Class Verification ===\n")
     
-    # Create a robot instance
     robot1 = Robot(robot_id=101, location="A3", online=True)
     print(f"Created: {robot1}\n")
     
-    # Test moveBot method
     print("Testing moveBot:")
     robot1.moveBot("B5")
     robot1.moveBot("C2")
     print(f"Current state: {robot1}\n")
     
-    # Test changeStatus method
     print("Testing changeStatus:")
-    robot1.changeStatus()  # Should go offline
+    robot1.changeStatus()  
     print(f"Current state: {robot1}\n")
     
-    robot1.changeStatus()  # Should go back online
+    robot1.changeStatus()  
     print(f"Current state: {robot1}\n")
     
-    # Create another robot to verify independence
     print("Creating second robot:")
     robot2 = Robot(robot_id=202, location="D1", online=False)
     print(f"Created: {robot2}\n")

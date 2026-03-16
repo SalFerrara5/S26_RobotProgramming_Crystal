@@ -1,0 +1,37 @@
+[1.230s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/src/webcam': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/build/webcam/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/build/webcam/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data
+[1.607s] running egg_info
+[1.607s] creating ../../build/webcam/webcam.egg-info
+[1.607s] writing ../../build/webcam/webcam.egg-info/PKG-INFO
+[1.607s] writing dependency_links to ../../build/webcam/webcam.egg-info/dependency_links.txt
+[1.607s] writing entry points to ../../build/webcam/webcam.egg-info/entry_points.txt
+[1.607s] writing requirements to ../../build/webcam/webcam.egg-info/requires.txt
+[1.607s] writing top-level names to ../../build/webcam/webcam.egg-info/top_level.txt
+[1.608s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[1.610s] reading manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[1.611s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[1.611s] running build
+[1.611s] running build_py
+[1.612s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/build/webcam/build
+[1.612s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/build/webcam/build/lib
+[1.612s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/build/webcam/build/lib/webcam
+[1.612s] copying webcam/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/build/webcam/build/lib/webcam
+[1.612s] running install
+[1.613s] running install_lib
+[1.613s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[1.614s] copying /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/build/webcam/build/lib/webcam/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[1.615s] byte-compiling /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/__init__.py to __init__.cpython-310.pyc
+[1.615s] running install_data
+[1.615s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/share
+[1.615s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/share/ament_index
+[1.615s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/share/ament_index/resource_index
+[1.616s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/share/ament_index/resource_index/packages
+[1.616s] copying resource/webcam -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/share/ament_index/resource_index/packages
+[1.616s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/share/webcam
+[1.616s] copying package.xml -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/share/webcam
+[1.616s] running install_egg_info
+[1.619s] Copying ../../build/webcam/webcam.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info
+[1.620s] running install_scripts
+[1.647s] Installing webcam_pub script to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/lib/webcam
+[1.647s] Installing webcam_sub script to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/lib/webcam
+[1.647s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/build/webcam/install.log'
+[1.689s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/src/webcam' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/build/webcam/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/build/webcam/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab4/Carsto/Lab/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data
