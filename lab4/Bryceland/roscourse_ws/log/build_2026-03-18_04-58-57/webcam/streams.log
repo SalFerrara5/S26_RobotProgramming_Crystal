@@ -1,0 +1,21 @@
+[4.026s] Invoking command in '/home/yahboom/roscourse_ws/src/webcam': PYTHONPATH=/home/yahboom/roscourse_ws/build/webcam/prefix_override:/home/yahboom/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/roscourse_ws/build/webcam/build install --record /home/yahboom/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data
+[5.011s] running egg_info
+[5.014s] writing ../../build/webcam/webcam.egg-info/PKG-INFO
+[5.048s] writing dependency_links to ../../build/webcam/webcam.egg-info/dependency_links.txt
+[5.056s] writing entry points to ../../build/webcam/webcam.egg-info/entry_points.txt
+[5.056s] writing requirements to ../../build/webcam/webcam.egg-info/requires.txt
+[5.056s] writing top-level names to ../../build/webcam/webcam.egg-info/top_level.txt
+[5.058s] reading manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[5.068s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[5.071s] running build
+[5.071s] running build_py
+[5.072s] running install
+[5.072s] running install_lib
+[5.077s] running install_data
+[5.081s] running install_egg_info
+[5.088s] removing '/home/yahboom/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info' (and everything under it)
+[5.090s] Copying ../../build/webcam/webcam.egg-info to /home/yahboom/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info
+[5.094s] running install_scripts
+[5.163s] Installing webcam_pub script to /home/yahboom/roscourse_ws/install/webcam/lib/webcam
+[5.168s] Installing webcam_sub script to /home/yahboom/roscourse_ws/install/webcam/lib/webcam
+[5.169s] writing list of installed files to '/home/yahboom/roscourse_ws/build/webcam/install.log'
