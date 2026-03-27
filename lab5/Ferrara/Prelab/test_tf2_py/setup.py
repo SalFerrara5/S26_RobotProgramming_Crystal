@@ -18,7 +18,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='yahboom',
-    maintainer_email='ferras5@rpi.edu',
+    maintainer_email='salferrara55555@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],

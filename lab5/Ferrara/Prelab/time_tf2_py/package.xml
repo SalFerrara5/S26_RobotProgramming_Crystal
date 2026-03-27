@@ -4,7 +4,7 @@
   <name>time_tf2_py</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="lizakj@rpi.edu">yahboom</maintainer>
+  <maintainer email="salferrara55555@gmail.com">yahboom</maintainer>
   <license>TODO: License declaration</license>
 
   <exec_depend>geometry_msgs</exec_depend>
