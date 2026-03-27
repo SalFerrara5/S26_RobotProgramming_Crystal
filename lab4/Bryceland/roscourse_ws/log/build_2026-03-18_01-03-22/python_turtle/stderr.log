@@ -1,0 +1,5 @@
+  File "/home/yahboom/roscourse_ws/install/python_turtle/lib/python3.10/site-packages/python_turtle/turtlebot_client.py", line 29
+    self.color_cli = self.create_client(SetColor,'set_color)
+                                                 ^
+SyntaxError: unterminated string literal (detected at line 29)
+

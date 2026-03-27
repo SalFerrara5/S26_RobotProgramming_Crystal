@@ -1,0 +1,2 @@
+/home/yahboom/roscourse_ws/install/python_turtle/lib/python3.10/site-packages/python_turtle/turtlebot_server.py:20: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+  self.get_logger().info('Turtle color set: %s'  (self.turtle.color)) #fill in the blank
