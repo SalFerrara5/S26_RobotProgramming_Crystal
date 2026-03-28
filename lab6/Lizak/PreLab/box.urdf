@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<robot name="box">
+
+  <!-- Bottom -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="1 1 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="gray">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Hinged top -->
+  <link name="top_link">
+    <visual>
+      <geometry>
+        <box size="1 1 0.05"/>
+      </geometry>
+      <origin xyz="0.5 0 0" rpy="0 0 0"/>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Right side -->
+  <link name="right_link">
+    <visual>
+      <geometry>
+        <box size="1 1 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0.5" rpy="1.5708 0 0"/>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="right_to_bottom" type="fixed">
+    <parent link="base_link"/>
+    <child link="right_link"/>
+    <origin xyz="0 0.5 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Left side -->
+  <link name="left_link">
+    <visual>
+      <geometry>
+        <box size="1 1 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0.5" rpy="1.5708 0 0"/>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="left_to_bottom" type="fixed">
+    <parent link="base_link"/>
+    <child link="left_link"/>
+    <origin xyz="0 -0.5 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Back side -->
+  <link name="back_link">
+    <visual>
+      <geometry>
+        <box size="1 1 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0.5" rpy="1.5708 0 1.5708"/>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="back_to_bottom" type="fixed">
+    <parent link="base_link"/>
+    <child link="back_link"/>
+    <origin xyz="-0.5 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Front side -->
+  <link name="front_link">
+    <visual>
+      <geometry>
+        <box size="1 1 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0.5" rpy="1.5708 0 1.5708"/>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="front_to_bottom" type="fixed">
+    <parent link="base_link"/>
+    <child link="front_link"/>
+    <origin xyz="0.5 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Hinged lid -->
+  <joint name="top_to_back" type="revolute">
+    <axis xyz="0 -1 0"/>
+    <parent link="back_link"/>
+    <child link="top_link"/>
+    <limit effort="1000.0" lower="0" upper="1.57" velocity="0.5"/>
+    <origin xyz="0 0 1" rpy="0 0 0"/>
+  </joint>
+
+</robot>
