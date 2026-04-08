@@ -1,0 +1,37 @@
+[1.756s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/src/my_robot': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/build/my_robot/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/build/my_robot/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/build/my_robot/install.log --single-version-externally-managed install_data
+[2.484s] running egg_info
+[2.485s] creating ../../build/my_robot/my_robot.egg-info
+[2.486s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[2.487s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[2.487s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[2.487s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[2.488s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[2.488s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.491s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.493s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.494s] running build
+[2.494s] running build_py
+[2.494s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/build/my_robot/build
+[2.495s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/build/my_robot/build/lib
+[2.495s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/build/my_robot/build/lib/my_robot
+[2.495s] copying my_robot/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/build/my_robot/build/lib/my_robot
+[2.495s] running install
+[2.495s] running install_lib
+[2.497s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[2.497s] copying /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[2.498s] byte-compiling /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py to __init__.cpython-310.pyc
+[2.499s] running install_data
+[2.499s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/share/ament_index
+[2.500s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/share/ament_index/resource_index
+[2.500s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/share/ament_index/resource_index/packages
+[2.500s] copying resource/my_robot -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/share/ament_index/resource_index/packages
+[2.500s] copying package.xml -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/share/my_robot
+[2.500s] copying urdf/my_robot.urdf -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/share/my_robot
+[2.501s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/share/my_robot/launch
+[2.501s] copying launch/my_robot_rviz.launch.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/share/my_robot/launch
+[2.502s] copying rviz/my_robot.rviz -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/share/my_robot
+[2.502s] running install_egg_info
+[2.505s] Copying ../../build/my_robot/my_robot.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[2.508s] running install_scripts
+[2.556s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/build/my_robot/install.log'
+[2.597s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/src/my_robot' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/build/my_robot/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/build/my_robot/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab6/Ferrara/lab/roscourse_sim_ws/build/my_robot/install.log --single-version-externally-managed install_data
