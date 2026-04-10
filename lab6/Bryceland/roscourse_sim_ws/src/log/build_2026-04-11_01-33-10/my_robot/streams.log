@@ -1,0 +1,37 @@
+[2.944s] Invoking command in '/home/yahboom/roscourse_sim_ws/src/my_robot': PYTHONPATH=/home/yahboom/roscourse_sim_ws/src/build/my_robot/prefix_override:/home/yahboom/roscourse_sim_ws/src/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/my_robot build --build-base /home/yahboom/roscourse_sim_ws/src/build/my_robot/build install --record /home/yahboom/roscourse_sim_ws/src/build/my_robot/install.log --single-version-externally-managed install_data
+[3.846s] running egg_info
+[3.848s] creating ../build/my_robot/my_robot.egg-info
+[3.849s] writing ../build/my_robot/my_robot.egg-info/PKG-INFO
+[3.849s] writing dependency_links to ../build/my_robot/my_robot.egg-info/dependency_links.txt
+[3.850s] writing entry points to ../build/my_robot/my_robot.egg-info/entry_points.txt
+[3.850s] writing requirements to ../build/my_robot/my_robot.egg-info/requires.txt
+[3.851s] writing top-level names to ../build/my_robot/my_robot.egg-info/top_level.txt
+[3.852s] writing manifest file '../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[3.857s] reading manifest file '../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[3.860s] writing manifest file '../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[3.861s] running build
+[3.862s] running build_py
+[3.862s] creating /home/yahboom/roscourse_sim_ws/src/build/my_robot/build
+[3.863s] creating /home/yahboom/roscourse_sim_ws/src/build/my_robot/build/lib
+[3.863s] creating /home/yahboom/roscourse_sim_ws/src/build/my_robot/build/lib/my_robot
+[3.901s] copying my_robot/__init__.py -> /home/yahboom/roscourse_sim_ws/src/build/my_robot/build/lib/my_robot
+[3.902s] running install
+[3.903s] running install_lib
+[3.905s] creating /home/yahboom/roscourse_sim_ws/src/install/my_robot/lib/python3.10/site-packages/my_robot
+[3.906s] copying /home/yahboom/roscourse_sim_ws/src/build/my_robot/build/lib/my_robot/__init__.py -> /home/yahboom/roscourse_sim_ws/src/install/my_robot/lib/python3.10/site-packages/my_robot
+[3.910s] byte-compiling /home/yahboom/roscourse_sim_ws/src/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py to __init__.cpython-310.pyc
+[3.911s] running install_data
+[3.911s] creating /home/yahboom/roscourse_sim_ws/src/install/my_robot/share/ament_index
+[3.911s] creating /home/yahboom/roscourse_sim_ws/src/install/my_robot/share/ament_index/resource_index
+[3.912s] creating /home/yahboom/roscourse_sim_ws/src/install/my_robot/share/ament_index/resource_index/packages
+[3.912s] copying resource/my_robot -> /home/yahboom/roscourse_sim_ws/src/install/my_robot/share/ament_index/resource_index/packages
+[3.913s] copying package.xml -> /home/yahboom/roscourse_sim_ws/src/install/my_robot/share/my_robot
+[3.913s] copying urdf/my_robot.urdf -> /home/yahboom/roscourse_sim_ws/src/install/my_robot/share/my_robot
+[3.913s] creating /home/yahboom/roscourse_sim_ws/src/install/my_robot/share/my_robot/launch
+[3.914s] copying launch/my_robot_rviz.launch.py -> /home/yahboom/roscourse_sim_ws/src/install/my_robot/share/my_robot/launch
+[3.915s] copying rviz/my_robot.rviz -> /home/yahboom/roscourse_sim_ws/src/install/my_robot/share/my_robot
+[3.915s] running install_egg_info
+[3.924s] Copying ../build/my_robot/my_robot.egg-info to /home/yahboom/roscourse_sim_ws/src/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[3.929s] running install_scripts
+[4.018s] writing list of installed files to '/home/yahboom/roscourse_sim_ws/src/build/my_robot/install.log'
+[4.073s] Invoked command in '/home/yahboom/roscourse_sim_ws/src/my_robot' returned '0': PYTHONPATH=/home/yahboom/roscourse_sim_ws/src/build/my_robot/prefix_override:/home/yahboom/roscourse_sim_ws/src/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/my_robot build --build-base /home/yahboom/roscourse_sim_ws/src/build/my_robot/build install --record /home/yahboom/roscourse_sim_ws/src/build/my_robot/install.log --single-version-externally-managed install_data
