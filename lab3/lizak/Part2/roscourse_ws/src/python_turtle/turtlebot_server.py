@@ -23,19 +23,10 @@ class TurtlebotServer(Node):
         self.ang_vel = 0  # angular velocity in yaw-direction
         
         # turtle color service
-        self.turtle_color_srv = self.create_service(
-            SetColor,
-            'set_color',
-            self.set_color_callback
-        )
+        self.turtle_color_srv = self.create_service(SetColor, 'set_color', self.set_color_callback)
 
         #### subscriber to car cmd ####
-        self.twist_sub = self.create_subscription(
-            Twist,
-            'turtleDrive',
-            self.twist_callback,
-            1
-        )
+        self.twist_sub = self.create_subscription(Twist, 'turtleDrive', self.twist_callback, 1)
 
         #### Driving Simulation Timer ####
         self.sim_interval = 0.02

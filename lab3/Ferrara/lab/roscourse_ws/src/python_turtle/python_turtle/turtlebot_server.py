@@ -25,7 +25,6 @@ class TurtlebotServer(Node):
         self.turtle_color_srv = self.create_service(SetColor, 'set_color', self.set_color_callback)
         #You need to fill in the service type based on the srv file created
 
-
         #### subsciber to car cmd ####
         self.twist_sub = self.create_subscription(Twist, 'turtleDrive', self.twist_callback, 1)
         self.twist_sub
