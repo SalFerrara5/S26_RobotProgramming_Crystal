@@ -1,0 +1,40 @@
+[1.903s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/my_robot': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/build/my_robot/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/my_robot build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/build/my_robot/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/build/my_robot/install.log --single-version-externally-managed install_data
+[2.273s] running egg_info
+[2.274s] creating ../build/my_robot/my_robot.egg-info
+[2.275s] writing ../build/my_robot/my_robot.egg-info/PKG-INFO
+[2.275s] writing dependency_links to ../build/my_robot/my_robot.egg-info/dependency_links.txt
+[2.275s] writing entry points to ../build/my_robot/my_robot.egg-info/entry_points.txt
+[2.275s] writing requirements to ../build/my_robot/my_robot.egg-info/requires.txt
+[2.275s] writing top-level names to ../build/my_robot/my_robot.egg-info/top_level.txt
+[2.275s] writing manifest file '../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.277s] reading manifest file '../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.278s] writing manifest file '../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.278s] running build
+[2.278s] running build_py
+[2.279s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/build/my_robot/build
+[2.279s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/build/my_robot/build/lib
+[2.279s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/build/my_robot/build/lib/my_robot
+[2.279s] copying my_robot/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/build/my_robot/build/lib/my_robot
+[2.279s] running install
+[2.279s] running install_lib
+[2.280s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/lib/python3.10/site-packages/my_robot
+[2.280s] copying /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/build/my_robot/build/lib/my_robot/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/lib/python3.10/site-packages/my_robot
+[2.281s] byte-compiling /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py to __init__.cpython-310.pyc
+[2.282s] running install_data
+[2.282s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/share/ament_index
+[2.282s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/share/ament_index/resource_index
+[2.282s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/share/ament_index/resource_index/packages
+[2.282s] copying resource/my_robot -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/share/ament_index/resource_index/packages
+[2.283s] copying package.xml -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/share/my_robot
+[2.283s] copying urdf/my_robot.urdf.xacro -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/share/my_robot
+[2.283s] copying urdf/my_robot.urdf -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/share/my_robot
+[2.283s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/share/my_robot/launch
+[2.283s] copying launch/my_robot_rviz.launch.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/share/my_robot/launch
+[2.283s] copying launch/my_robot_gazebo_rviz.launch.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/share/my_robot/launch
+[2.283s] copying launch/my_robot_xacro_rviz.launch.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/share/my_robot/launch
+[2.283s] copying rviz/my_robot.rviz -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/share/my_robot
+[2.284s] running install_egg_info
+[2.285s] Copying ../build/my_robot/my_robot.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[2.286s] running install_scripts
+[2.316s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/build/my_robot/install.log'
+[2.363s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/my_robot' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/build/my_robot/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/my_robot build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/build/my_robot/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/lab7/Carsto/build/my_robot/install.log --single-version-externally-managed install_data
