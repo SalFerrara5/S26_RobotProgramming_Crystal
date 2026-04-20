@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>raspbot_drive_control</name>
+  <version>0.0.1</version>
+  <description>Driving control node for Raspbot V2</description>
+
+  <maintainer email="you@example.com">your_name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>python3</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

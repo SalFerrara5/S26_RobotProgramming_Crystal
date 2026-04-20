@@ -1,0 +1,31 @@
+[0.729s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/raspbot_drive_control': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/raspbot_drive_control build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/install.log --single-version-externally-managed
+[0.998s] running egg_info
+[0.998s] creating ../../build/raspbot_drive_control/raspbot_drive_control.egg-info
+[0.998s] writing ../../build/raspbot_drive_control/raspbot_drive_control.egg-info/PKG-INFO
+[0.999s] writing dependency_links to ../../build/raspbot_drive_control/raspbot_drive_control.egg-info/dependency_links.txt
+[0.999s] writing entry points to ../../build/raspbot_drive_control/raspbot_drive_control.egg-info/entry_points.txt
+[0.999s] writing requirements to ../../build/raspbot_drive_control/raspbot_drive_control.egg-info/requires.txt
+[0.999s] writing top-level names to ../../build/raspbot_drive_control/raspbot_drive_control.egg-info/top_level.txt
+[0.999s] writing manifest file '../../build/raspbot_drive_control/raspbot_drive_control.egg-info/SOURCES.txt'
+[1.000s] reading manifest file '../../build/raspbot_drive_control/raspbot_drive_control.egg-info/SOURCES.txt'
+[1.001s] writing manifest file '../../build/raspbot_drive_control/raspbot_drive_control.egg-info/SOURCES.txt'
+[1.012s] running build
+[1.012s] running build_py
+[1.012s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build
+[1.012s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build/lib
+[1.012s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build/lib/raspbot_drive_control
+[1.012s] copying raspbot_drive_control/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build/lib/raspbot_drive_control
+[1.013s] copying raspbot_drive_control/drive_controller.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build/lib/raspbot_drive_control
+[1.013s] running install
+[1.013s] running install_lib
+[1.013s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages/raspbot_drive_control
+[1.013s] copying /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build/lib/raspbot_drive_control/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages/raspbot_drive_control
+[1.014s] copying /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build/lib/raspbot_drive_control/drive_controller.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages/raspbot_drive_control
+[1.014s] byte-compiling /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages/raspbot_drive_control/__init__.py to __init__.cpython-310.pyc
+[1.015s] byte-compiling /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages/raspbot_drive_control/drive_controller.py to drive_controller.cpython-310.pyc
+[1.015s] running install_egg_info
+[1.017s] Copying ../../build/raspbot_drive_control/raspbot_drive_control.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages/raspbot_drive_control-0.0.1-py3.10.egg-info
+[1.018s] running install_scripts
+[1.040s] Installing object_drive_controller script to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/raspbot_drive_control
+[1.040s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/install.log'
+[1.064s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/raspbot_drive_control' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/raspbot_drive_control build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/install.log --single-version-externally-managed
