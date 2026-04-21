@@ -1,0 +1,23 @@
+[5.525s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/raspbot_drive_control': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/raspbot_drive_control build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/install.log --single-version-externally-managed
+[6.527s] running egg_info
+[6.527s] writing ../../build/raspbot_drive_control/raspbot_drive_control.egg-info/PKG-INFO
+[6.529s] writing dependency_links to ../../build/raspbot_drive_control/raspbot_drive_control.egg-info/dependency_links.txt
+[6.530s] writing entry points to ../../build/raspbot_drive_control/raspbot_drive_control.egg-info/entry_points.txt
+[6.532s] writing requirements to ../../build/raspbot_drive_control/raspbot_drive_control.egg-info/requires.txt
+[6.539s] writing top-level names to ../../build/raspbot_drive_control/raspbot_drive_control.egg-info/top_level.txt
+[6.544s] reading manifest file '../../build/raspbot_drive_control/raspbot_drive_control.egg-info/SOURCES.txt'
+[6.545s] writing manifest file '../../build/raspbot_drive_control/raspbot_drive_control.egg-info/SOURCES.txt'
+[6.549s] running build
+[6.549s] running build_py
+[6.551s] copying raspbot_drive_control/object_drive_controller.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build/lib/raspbot_drive_control
+[6.551s] running install
+[6.551s] running install_lib
+[6.551s] copying /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build/lib/raspbot_drive_control/object_drive_controller.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages/raspbot_drive_control
+[6.554s] byte-compiling /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages/raspbot_drive_control/object_drive_controller.py to object_drive_controller.cpython-310.pyc
+[6.561s] running install_egg_info
+[6.566s] removing '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages/raspbot_drive_control-0.0.1-py3.10.egg-info' (and everything under it)
+[6.567s] Copying ../../build/raspbot_drive_control/raspbot_drive_control.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages/raspbot_drive_control-0.0.1-py3.10.egg-info
+[6.571s] running install_scripts
+[6.637s] Installing object_drive_controller script to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/raspbot_drive_control
+[6.639s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/install.log'
+[6.731s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/raspbot_drive_control' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/raspbot_drive_control build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/install.log --single-version-externally-managed

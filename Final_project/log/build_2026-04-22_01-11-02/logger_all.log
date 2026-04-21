@@ -1,0 +1,281 @@
+[1.423s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.423s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d720676e9e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d720676e4d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d720676e4d0>>)
+[2.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.835s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project'
+[2.835s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.900s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.901s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.901s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.901s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.902s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.902s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.902s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.902s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.903s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.903s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/high_lvl_obj_detect) by extensions ['ignore', 'ignore_ament_install']
+[2.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/high_lvl_obj_detect) by extension 'ignore'
+[2.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/high_lvl_obj_detect) by extension 'ignore_ament_install'
+[2.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/high_lvl_obj_detect) by extensions ['colcon_pkg']
+[2.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/high_lvl_obj_detect) by extension 'colcon_pkg'
+[2.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/high_lvl_obj_detect) by extensions ['colcon_meta']
+[2.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/high_lvl_obj_detect) by extension 'colcon_meta'
+[2.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/high_lvl_obj_detect) by extensions ['ros']
+[2.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/high_lvl_obj_detect) by extension 'ros'
+[2.918s] DEBUG:colcon.colcon_core.package_identification:Package 'src/high_lvl_obj_detect' with type 'ros.ament_python' and name 'high_lvl_obj_detect'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/low_lvl_obj_detect) by extensions ['ignore', 'ignore_ament_install']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/low_lvl_obj_detect) by extension 'ignore'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/low_lvl_obj_detect) by extension 'ignore_ament_install'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/low_lvl_obj_detect) by extensions ['colcon_pkg']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/low_lvl_obj_detect) by extension 'colcon_pkg'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/low_lvl_obj_detect) by extensions ['colcon_meta']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/low_lvl_obj_detect) by extension 'colcon_meta'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/low_lvl_obj_detect) by extensions ['ros']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/low_lvl_obj_detect) by extension 'ros'
+[2.922s] DEBUG:colcon.colcon_core.package_identification:Package 'src/low_lvl_obj_detect' with type 'ros.ament_python' and name 'low_lvl_obj_detect'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extensions ['ignore', 'ignore_ament_install']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'ignore'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'ignore_ament_install'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extensions ['colcon_pkg']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'colcon_pkg'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extensions ['colcon_meta']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'colcon_meta'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extensions ['ros']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'ros'
+[2.925s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_planning' with type 'ros.ament_python' and name 'path_planning'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspbot_drive_control) by extensions ['ignore', 'ignore_ament_install']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspbot_drive_control) by extension 'ignore'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspbot_drive_control) by extension 'ignore_ament_install'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspbot_drive_control) by extensions ['colcon_pkg']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspbot_drive_control) by extension 'colcon_pkg'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspbot_drive_control) by extensions ['colcon_meta']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspbot_drive_control) by extension 'colcon_meta'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspbot_drive_control) by extensions ['ros']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspbot_drive_control) by extension 'ros'
+[2.929s] DEBUG:colcon.colcon_core.package_identification:Package 'src/raspbot_drive_control' with type 'ros.ament_python' and name 'raspbot_drive_control'
+[2.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.107s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/yahboom/yahboomcar_ws/install
+[3.108s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yahboom/gmapping_ws/install
+[3.117s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 76 installed packages in /home/yahboom/cartoros2/install
+[3.125s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 376 installed packages in /opt/ros/humble
+[3.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.660s] Level 5:colcon.colcon_core.verb:set package 'high_lvl_obj_detect' build argument 'cmake_args' from command line to 'None'
+[3.660s] Level 5:colcon.colcon_core.verb:set package 'high_lvl_obj_detect' build argument 'cmake_target' from command line to 'None'
+[3.660s] Level 5:colcon.colcon_core.verb:set package 'high_lvl_obj_detect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.660s] Level 5:colcon.colcon_core.verb:set package 'high_lvl_obj_detect' build argument 'cmake_clean_cache' from command line to 'False'
+[3.660s] Level 5:colcon.colcon_core.verb:set package 'high_lvl_obj_detect' build argument 'cmake_clean_first' from command line to 'False'
+[3.661s] Level 5:colcon.colcon_core.verb:set package 'high_lvl_obj_detect' build argument 'cmake_force_configure' from command line to 'False'
+[3.661s] Level 5:colcon.colcon_core.verb:set package 'high_lvl_obj_detect' build argument 'ament_cmake_args' from command line to 'None'
+[3.661s] Level 5:colcon.colcon_core.verb:set package 'high_lvl_obj_detect' build argument 'catkin_cmake_args' from command line to 'None'
+[3.661s] Level 5:colcon.colcon_core.verb:set package 'high_lvl_obj_detect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.661s] DEBUG:colcon.colcon_core.verb:Building package 'high_lvl_obj_detect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect', 'merge_install': False, 'path': '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/high_lvl_obj_detect', 'symlink_install': False, 'test_result_base': None}
+[3.661s] Level 5:colcon.colcon_core.verb:set package 'low_lvl_obj_detect' build argument 'cmake_args' from command line to 'None'
+[3.662s] Level 5:colcon.colcon_core.verb:set package 'low_lvl_obj_detect' build argument 'cmake_target' from command line to 'None'
+[3.662s] Level 5:colcon.colcon_core.verb:set package 'low_lvl_obj_detect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.662s] Level 5:colcon.colcon_core.verb:set package 'low_lvl_obj_detect' build argument 'cmake_clean_cache' from command line to 'False'
+[3.662s] Level 5:colcon.colcon_core.verb:set package 'low_lvl_obj_detect' build argument 'cmake_clean_first' from command line to 'False'
+[3.662s] Level 5:colcon.colcon_core.verb:set package 'low_lvl_obj_detect' build argument 'cmake_force_configure' from command line to 'False'
+[3.662s] Level 5:colcon.colcon_core.verb:set package 'low_lvl_obj_detect' build argument 'ament_cmake_args' from command line to 'None'
+[3.662s] Level 5:colcon.colcon_core.verb:set package 'low_lvl_obj_detect' build argument 'catkin_cmake_args' from command line to 'None'
+[3.662s] Level 5:colcon.colcon_core.verb:set package 'low_lvl_obj_detect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.662s] DEBUG:colcon.colcon_core.verb:Building package 'low_lvl_obj_detect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect', 'merge_install': False, 'path': '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/low_lvl_obj_detect', 'symlink_install': False, 'test_result_base': None}
+[3.663s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_args' from command line to 'None'
+[3.663s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_target' from command line to 'None'
+[3.663s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.663s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[3.663s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_clean_first' from command line to 'False'
+[3.663s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_force_configure' from command line to 'False'
+[3.663s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'ament_cmake_args' from command line to 'None'
+[3.663s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[3.663s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.663s] DEBUG:colcon.colcon_core.verb:Building package 'path_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning', 'merge_install': False, 'path': '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/path_planning', 'symlink_install': False, 'test_result_base': None}
+[3.664s] Level 5:colcon.colcon_core.verb:set package 'raspbot_drive_control' build argument 'cmake_args' from command line to 'None'
+[3.664s] Level 5:colcon.colcon_core.verb:set package 'raspbot_drive_control' build argument 'cmake_target' from command line to 'None'
+[3.664s] Level 5:colcon.colcon_core.verb:set package 'raspbot_drive_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.664s] Level 5:colcon.colcon_core.verb:set package 'raspbot_drive_control' build argument 'cmake_clean_cache' from command line to 'False'
+[3.664s] Level 5:colcon.colcon_core.verb:set package 'raspbot_drive_control' build argument 'cmake_clean_first' from command line to 'False'
+[3.664s] Level 5:colcon.colcon_core.verb:set package 'raspbot_drive_control' build argument 'cmake_force_configure' from command line to 'False'
+[3.664s] Level 5:colcon.colcon_core.verb:set package 'raspbot_drive_control' build argument 'ament_cmake_args' from command line to 'None'
+[3.664s] Level 5:colcon.colcon_core.verb:set package 'raspbot_drive_control' build argument 'catkin_cmake_args' from command line to 'None'
+[3.664s] Level 5:colcon.colcon_core.verb:set package 'raspbot_drive_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.664s] DEBUG:colcon.colcon_core.verb:Building package 'raspbot_drive_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control', 'merge_install': False, 'path': '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/raspbot_drive_control', 'symlink_install': False, 'test_result_base': None}
+[3.664s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.668s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/high_lvl_obj_detect' with build type 'ament_python'
+[3.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('high_lvl_obj_detect', 'ament_prefix_path')
+[3.690s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/share/high_lvl_obj_detect/hook/ament_prefix_path.ps1'
+[3.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/share/high_lvl_obj_detect/hook/ament_prefix_path.dsv'
+[3.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/share/high_lvl_obj_detect/hook/ament_prefix_path.sh'
+[3.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.698s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.725s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/low_lvl_obj_detect' with build type 'ament_python'
+[3.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('low_lvl_obj_detect', 'ament_prefix_path')
+[3.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/share/low_lvl_obj_detect/hook/ament_prefix_path.ps1'
+[3.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/share/low_lvl_obj_detect/hook/ament_prefix_path.dsv'
+[3.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/share/low_lvl_obj_detect/hook/ament_prefix_path.sh'
+[3.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.756s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/path_planning' with build type 'ament_python'
+[3.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planning', 'ament_prefix_path')
+[3.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/path_planning/hook/ament_prefix_path.ps1'
+[3.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/path_planning/hook/ament_prefix_path.dsv'
+[3.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/path_planning/hook/ament_prefix_path.sh'
+[3.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.788s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/raspbot_drive_control' with build type 'ament_python'
+[3.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('raspbot_drive_control', 'ament_prefix_path')
+[3.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/share/raspbot_drive_control/hook/ament_prefix_path.ps1'
+[3.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/share/raspbot_drive_control/hook/ament_prefix_path.dsv'
+[3.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/share/raspbot_drive_control/hook/ament_prefix_path.sh'
+[3.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.795s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.775s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/high_lvl_obj_detect'
+[4.776s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.776s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.621s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/low_lvl_obj_detect'
+[5.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.470s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/path_planning'
+[6.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.286s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'raspbot_drive_control' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[7.287s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'raspbot_drive_control' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[7.289s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/raspbot_drive_control'
+[7.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/raspbot_drive_control': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/raspbot_drive_control build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/install.log --single-version-externally-managed
+[9.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/high_lvl_obj_detect': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/high_lvl_obj_detect build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/install.log --single-version-externally-managed install_data
+[9.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/low_lvl_obj_detect': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/low_lvl_obj_detect build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/install.log --single-version-externally-managed install_data
+[9.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/path_planning': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_planning build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/install.log --single-version-externally-managed install_data
+[10.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/raspbot_drive_control' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/raspbot_drive_control build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/raspbot_drive_control/install.log --single-version-externally-managed
+[10.620s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control' for CMake module files
+[10.622s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control' for CMake config files
+[10.623s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib'
+[10.624s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/bin'
+[10.624s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/pkgconfig/raspbot_drive_control.pc'
+[10.624s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/lib/python3.10/site-packages'
+[10.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('raspbot_drive_control', 'pythonpath')
+[10.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/share/raspbot_drive_control/hook/pythonpath.ps1'
+[10.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/share/raspbot_drive_control/hook/pythonpath.dsv'
+[10.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/share/raspbot_drive_control/hook/pythonpath.sh'
+[10.634s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/bin'
+[10.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(raspbot_drive_control)
+[10.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/share/raspbot_drive_control/package.ps1'
+[10.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/share/raspbot_drive_control/package.dsv'
+[10.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/share/raspbot_drive_control/package.sh'
+[10.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/share/raspbot_drive_control/package.bash'
+[10.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/share/raspbot_drive_control/package.zsh'
+[10.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/raspbot_drive_control/share/colcon-core/packages/raspbot_drive_control)
+[10.665s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect' for CMake module files
+[10.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/low_lvl_obj_detect' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/low_lvl_obj_detect build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/install.log --single-version-externally-managed install_data
+[10.667s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect' for CMake config files
+[10.668s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/lib'
+[10.668s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/bin'
+[10.668s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/lib/pkgconfig/low_lvl_obj_detect.pc'
+[10.669s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/lib/python3.10/site-packages'
+[10.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('low_lvl_obj_detect', 'pythonpath')
+[10.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/share/low_lvl_obj_detect/hook/pythonpath.ps1'
+[10.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/share/low_lvl_obj_detect/hook/pythonpath.dsv'
+[10.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/share/low_lvl_obj_detect/hook/pythonpath.sh'
+[10.674s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/bin'
+[10.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(low_lvl_obj_detect)
+[10.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/share/low_lvl_obj_detect/package.ps1'
+[10.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/share/low_lvl_obj_detect/package.dsv'
+[10.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/share/low_lvl_obj_detect/package.sh'
+[10.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/share/low_lvl_obj_detect/package.bash'
+[10.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/share/low_lvl_obj_detect/package.zsh'
+[10.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/share/colcon-core/packages/low_lvl_obj_detect)
+[10.703s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect' for CMake module files
+[10.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/high_lvl_obj_detect' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/high_lvl_obj_detect build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/install.log --single-version-externally-managed install_data
+[10.706s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect' for CMake config files
+[10.708s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/lib'
+[10.708s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/bin'
+[10.708s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/lib/pkgconfig/high_lvl_obj_detect.pc'
+[10.709s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/lib/python3.10/site-packages'
+[10.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('high_lvl_obj_detect', 'pythonpath')
+[10.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/share/high_lvl_obj_detect/hook/pythonpath.ps1'
+[10.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/share/high_lvl_obj_detect/hook/pythonpath.dsv'
+[10.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/share/high_lvl_obj_detect/hook/pythonpath.sh'
+[10.713s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/bin'
+[10.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(high_lvl_obj_detect)
+[10.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/share/high_lvl_obj_detect/package.ps1'
+[10.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/share/high_lvl_obj_detect/package.dsv'
+[10.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/share/high_lvl_obj_detect/package.sh'
+[10.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/share/high_lvl_obj_detect/package.bash'
+[10.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/share/high_lvl_obj_detect/package.zsh'
+[10.718s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/share/colcon-core/packages/high_lvl_obj_detect)
+[10.721s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning' for CMake module files
+[10.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/path_planning' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_planning build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/install.log --single-version-externally-managed install_data
+[10.723s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning' for CMake config files
+[10.725s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib'
+[10.725s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/bin'
+[10.725s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/pkgconfig/path_planning.pc'
+[10.726s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages'
+[10.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planning', 'pythonpath')
+[10.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/path_planning/hook/pythonpath.ps1'
+[10.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/path_planning/hook/pythonpath.dsv'
+[10.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/path_planning/hook/pythonpath.sh'
+[10.729s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/bin'
+[10.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_planning)
+[10.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/path_planning/package.ps1'
+[10.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/path_planning/package.dsv'
+[10.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/path_planning/package.sh'
+[10.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/path_planning/package.bash'
+[10.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/path_planning/package.zsh'
+[10.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/colcon-core/packages/path_planning)
+[10.736s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.737s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.737s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.738s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.767s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.767s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.767s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.829s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/local_setup.ps1'
+[10.834s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/_local_setup_util_ps1.py'
+[10.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/setup.ps1'
+[10.857s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/local_setup.sh'
+[10.860s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/_local_setup_util_sh.py'
+[10.862s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/setup.sh'
+[10.879s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/local_setup.bash'
+[10.882s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/setup.bash'
+[10.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/local_setup.zsh'
+[10.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/setup.zsh'

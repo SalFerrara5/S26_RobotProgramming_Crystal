@@ -1,0 +1,20 @@
+[9.467s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/low_lvl_obj_detect': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/low_lvl_obj_detect build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/install.log --single-version-externally-managed install_data
+[10.576s] running egg_info
+[10.581s] writing ../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/PKG-INFO
+[10.581s] writing dependency_links to ../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/dependency_links.txt
+[10.582s] writing entry points to ../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/entry_points.txt
+[10.582s] writing requirements to ../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/requires.txt
+[10.586s] writing top-level names to ../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/top_level.txt
+[10.593s] reading manifest file '../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/SOURCES.txt'
+[10.595s] writing manifest file '../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/SOURCES.txt'
+[10.597s] running build
+[10.597s] running build_py
+[10.597s] running install
+[10.598s] running install_lib
+[10.603s] running install_data
+[10.605s] running install_egg_info
+[10.612s] removing '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/lib/python3.10/site-packages/low_lvl_obj_detect-0.0.0-py3.10.egg-info' (and everything under it)
+[10.612s] Copying ../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/lib/python3.10/site-packages/low_lvl_obj_detect-0.0.0-py3.10.egg-info
+[10.614s] running install_scripts
+[10.706s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/install.log'
+[10.773s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/low_lvl_obj_detect' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/low_lvl_obj_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/low_lvl_obj_detect build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/low_lvl_obj_detect/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[9.342s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/high_lvl_obj_detect': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/high_lvl_obj_detect build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/install.log --single-version-externally-managed install_data
+[10.611s] running egg_info
+[10.612s] writing ../../build/high_lvl_obj_detect/high_lvl_obj_detect.egg-info/PKG-INFO
+[10.614s] writing dependency_links to ../../build/high_lvl_obj_detect/high_lvl_obj_detect.egg-info/dependency_links.txt
+[10.616s] writing entry points to ../../build/high_lvl_obj_detect/high_lvl_obj_detect.egg-info/entry_points.txt
+[10.617s] writing requirements to ../../build/high_lvl_obj_detect/high_lvl_obj_detect.egg-info/requires.txt
+[10.618s] writing top-level names to ../../build/high_lvl_obj_detect/high_lvl_obj_detect.egg-info/top_level.txt
+[10.626s] reading manifest file '../../build/high_lvl_obj_detect/high_lvl_obj_detect.egg-info/SOURCES.txt'
+[10.626s] writing manifest file '../../build/high_lvl_obj_detect/high_lvl_obj_detect.egg-info/SOURCES.txt'
+[10.628s] running build
+[10.628s] running build_py
+[10.628s] running install
+[10.629s] running install_lib
+[10.632s] running install_data
+[10.635s] running install_egg_info
+[10.639s] removing '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/lib/python3.10/site-packages/high_lvl_obj_detect-0.0.0-py3.10.egg-info' (and everything under it)
+[10.639s] Copying ../../build/high_lvl_obj_detect/high_lvl_obj_detect.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/lib/python3.10/site-packages/high_lvl_obj_detect-0.0.0-py3.10.egg-info
+[10.642s] running install_scripts
+[10.714s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/install.log'
+[10.780s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/high_lvl_obj_detect' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/high_lvl_obj_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/high_lvl_obj_detect build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/high_lvl_obj_detect/install.log --single-version-externally-managed install_data

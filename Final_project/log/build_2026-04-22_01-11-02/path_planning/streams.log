@@ -1,0 +1,33 @@
+[5.841s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/path_planning': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_planning build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/install.log --single-version-externally-managed install_data
+[6.793s] running egg_info
+[6.796s] creating ../../build/path_planning/path_planning.egg-info
+[6.796s] writing ../../build/path_planning/path_planning.egg-info/PKG-INFO
+[6.796s] writing dependency_links to ../../build/path_planning/path_planning.egg-info/dependency_links.txt
+[6.797s] writing entry points to ../../build/path_planning/path_planning.egg-info/entry_points.txt
+[6.797s] writing requirements to ../../build/path_planning/path_planning.egg-info/requires.txt
+[6.797s] writing top-level names to ../../build/path_planning/path_planning.egg-info/top_level.txt
+[6.798s] writing manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'
+[6.806s] reading manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'
+[6.806s] writing manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'
+[6.809s] running build
+[6.809s] running build_py
+[6.813s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/build
+[6.813s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/build/lib
+[6.813s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/build/lib/path_planning
+[6.813s] copying path_planning/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/build/lib/path_planning
+[6.814s] running install
+[6.814s] running install_lib
+[6.815s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages/path_planning
+[6.815s] copying /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/build/lib/path_planning/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages/path_planning
+[6.818s] byte-compiling /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages/path_planning/__init__.py to __init__.cpython-310.pyc
+[6.821s] running install_data
+[6.821s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/ament_index
+[6.822s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/ament_index/resource_index
+[6.822s] creating /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/ament_index/resource_index/packages
+[6.822s] copying resource/path_planning -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/ament_index/resource_index/packages
+[6.822s] copying package.xml -> /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/share/path_planning
+[6.822s] running install_egg_info
+[6.828s] Copying ../../build/path_planning/path_planning.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages/path_planning-0.0.0-py3.10.egg-info
+[6.834s] running install_scripts
+[6.897s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/install.log'
+[6.965s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/path_planning' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_planning build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/install.log --single-version-externally-managed install_data

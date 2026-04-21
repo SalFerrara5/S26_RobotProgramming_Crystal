@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/PKG-INFO
+../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/SOURCES.txt
+../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/dependency_links.txt
+../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/entry_points.txt
+../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/requires.txt
+../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/top_level.txt
+../../build/low_lvl_obj_detect/low_lvl_obj_detect.egg-info/zip-safe
+low_lvl_obj_detect/__init__.py
+resource/low_lvl_obj_detect
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
