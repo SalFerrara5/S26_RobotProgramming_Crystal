@@ -5,6 +5,12 @@ from std_msgs.msg import Bool, Float32
 import sys
 import os
 
+
+class FakeRaspbot:
+    def Ctrl_Muto(self, motor_index, speed):
+        print(f"[FAKE MOTOR] motor={motor_index}, speed={speed}")
+
+
 possible_paths = [
     '/home/pi/project_demo/lib',
     '/home/yahboom/project_demo/lib',
@@ -15,9 +21,12 @@ for path in possible_paths:
         sys.path.append(path)
 
 try:
-    from McLumk_Wheel_Sports import *
+    from Raspbot_Lib import Raspbot
+    HARDWARE_AVAILABLE = True
 except Exception as e:
-    raise RuntimeError(f"Could not import McLumk_Wheel_Sports: {e}")
+    print(f"WARNING: Could not import Raspbot_Lib: {e}")
+    HARDWARE_AVAILABLE = False
+    Raspbot = FakeRaspbot
 
 
 class ObjectDriveController(Node):
@@ -35,6 +44,8 @@ class ObjectDriveController(Node):
         self.center_tol = self.get_parameter('center_tolerance').value
         self.approach_dist = self.get_parameter('approach_distance').value
 
+        self.bot = Raspbot()
+
         self.create_subscription(Bool, '/target_visible', self.visible_callback, 10)
         self.create_subscription(Float32, '/target_offset', self.offset_callback, 10)
         self.create_subscription(Float32, '/target_distance', self.distance_callback, 10)
@@ -45,7 +56,10 @@ class ObjectDriveController(Node):
 
         self.timer = self.create_timer(0.1, self.control_loop)
 
-        self.get_logger().info("Drive controller started")
+        if HARDWARE_AVAILABLE:
+            self.get_logger().info("Drive controller started in HARDWARE MODE")
+        else:
+            self.get_logger().warn("Drive controller started in TEST MODE (fake motor driver)")
 
     def visible_callback(self, msg):
         self.target_visible = msg.data
@@ -56,27 +70,48 @@ class ObjectDriveController(Node):
     def distance_callback(self, msg):
         self.target_distance = msg.data
 
+    def set_all_motors(self, m1, m2, m3, m4):
+        self.bot.Ctrl_Muto(0, int(m1))
+        self.bot.Ctrl_Muto(1, int(m2))
+        self.bot.Ctrl_Muto(2, int(m3))
+        self.bot.Ctrl_Muto(3, int(m4))
+
+    def move_forward(self, speed):
+        self.set_all_motors(speed, speed, speed, speed)
+
+    def move_backward(self, speed):
+        self.set_all_motors(-speed, -speed, -speed, -speed)
+
+    def rotate_left(self, speed):
+        self.set_all_motors(-speed, -speed, speed, speed)
+
+    def rotate_right(self, speed):
+        self.set_all_motors(speed, speed, -speed, -speed)
+
+    def stop_robot(self):
+        self.set_all_motors(0, 0, 0, 0)
+
     def control_loop(self):
         if not self.target_visible:
             self.get_logger().info("Searching...")
-            rotate_left(self.rotate_speed)
+            self.rotate_left(self.rotate_speed)
             return
 
         if abs(self.target_offset) > self.center_tol:
             if self.target_offset > 0:
                 self.get_logger().info("Turning right")
-                rotate_right(self.rotate_speed)
+                self.rotate_right(self.rotate_speed)
             else:
                 self.get_logger().info("Turning left")
-                rotate_left(self.rotate_speed)
+                self.rotate_left(self.rotate_speed)
             return
 
         if self.target_distance > self.approach_dist:
             self.get_logger().info("Moving forward")
-            move_forward(self.forward_speed)
+            self.move_forward(self.forward_speed)
         else:
             self.get_logger().info("Target reached")
-            stop_robot()
+            self.stop_robot()
 
 
 def main(args=None):
@@ -88,14 +123,9 @@ def main(args=None):
     except KeyboardInterrupt:
         pass
 
-    stop_robot()
+    node.stop_robot()
     node.destroy_node()
     rclpy.shutdown()
-
-    try:
-        del bot
-    except:
-        pass
 
 
 if __name__ == '__main__':

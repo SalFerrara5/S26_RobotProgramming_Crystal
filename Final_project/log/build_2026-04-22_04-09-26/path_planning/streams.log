@@ -1,0 +1,20 @@
+[1.813s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/path_planning': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_planning build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/install.log --single-version-externally-managed install_data
+[2.142s] running egg_info
+[2.143s] writing ../../build/path_planning/path_planning.egg-info/PKG-INFO
+[2.143s] writing dependency_links to ../../build/path_planning/path_planning.egg-info/dependency_links.txt
+[2.144s] writing entry points to ../../build/path_planning/path_planning.egg-info/entry_points.txt
+[2.144s] writing requirements to ../../build/path_planning/path_planning.egg-info/requires.txt
+[2.145s] writing top-level names to ../../build/path_planning/path_planning.egg-info/top_level.txt
+[2.147s] reading manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'
+[2.149s] writing manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'
+[2.149s] running build
+[2.149s] running build_py
+[2.150s] running install
+[2.150s] running install_lib
+[2.151s] running install_data
+[2.151s] running install_egg_info
+[2.153s] removing '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages/path_planning-0.0.0-py3.10.egg-info' (and everything under it)
+[2.153s] Copying ../../build/path_planning/path_planning.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages/path_planning-0.0.0-py3.10.egg-info
+[2.155s] running install_scripts
+[2.179s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/install.log'
+[2.241s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/src/path_planning' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_planning build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Crystal/Final_project/build/path_planning/install.log --single-version-externally-managed install_data
