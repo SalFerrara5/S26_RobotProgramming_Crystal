@@ -15,6 +15,7 @@ setup(
     entry_points={
         'console_scripts': [
             'object_drive_controller = raspbot_drive_control.object_drive_controller:main',
+            'motor_test = raspbot_drive_control.motor_test:main',
         ],
     },
 )
