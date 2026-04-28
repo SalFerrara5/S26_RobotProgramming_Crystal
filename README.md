@@ -1,4 +1,4 @@
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/1f809cde-81ce-459c-a9a2-392288872d8f" />
+<img width="10.24" height="15.36" alt="image" src="https://github.com/user-attachments/assets/1f809cde-81ce-459c-a9a2-392288872d8f" />
 
 
 # S26_RobotProgramming_Crystal
